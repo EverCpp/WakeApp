@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutMainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dialog_bg"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/frameLayoutMain"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAddAlarm"
+        app:layout_constraintEnd_toEndOf="@+id/layoutMainActivity"
+        app:layout_constraintStart_toStartOf="@+id/layoutMainActivity"
+        app:layout_constraintTop_toTopOf="@+id/layoutMainActivity">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/buttonAddAlarm"
+        android:layout_width="@dimen/alarm_but_add"
+        android:layout_height="@dimen/alarm_but_add"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/shape_but_round"
+        android:text="@string/but_add"
+        android:textColor="@color/but_text"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="@+id/layoutMainActivity"
+        app:layout_constraintEnd_toEndOf="@+id/layoutMainActivity"
+        app:layout_constraintStart_toStartOf="@+id/layoutMainActivity" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

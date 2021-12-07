@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WakeApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="gral_0">0</string>
+    <string name="gral_1">0</string>
+    <string name="gral_00">0</string>
+
+    <string name="but_add">+</string>
+    <string name="but_ok">Aceptar</string>
+    <string name="but_cancel">Cancelar</string>
+
+    <string name="test_edit">Texto de edit</string>
+    <string name="test_view">Texto de view</string>
+</resources>

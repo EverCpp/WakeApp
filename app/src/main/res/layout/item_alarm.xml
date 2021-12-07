@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutItemAlarm"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/but_normal_bg">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textAlarmTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="8:00"
+        android:textColor="@color/textview_text"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/layoutItemAlarm"
+        app:layout_constraintTop_toTopOf="@+id/layoutItemAlarm" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textAlarmName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Despertador"
+        android:textColor="@color/textview_text"
+        app:layout_constraintStart_toStartOf="@+id/textAlarmTime"
+        app:layout_constraintTop_toBottomOf="@+id/textAlarmTime" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textAlarmRepeat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="8dp"
+        android:text="lun, mar, mier, jue, vier"
+        android:textColor="@color/textview_text"
+        app:layout_constraintBottom_toBottomOf="@+id/layoutItemAlarm"
+        app:layout_constraintStart_toStartOf="@+id/textAlarmTime"
+        app:layout_constraintTop_toBottomOf="@+id/textAlarmName" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:showText="false"
+        android:text="Switch"
+        app:layout_constraintBottom_toBottomOf="@+id/layoutItemAlarm"
+        app:layout_constraintEnd_toEndOf="@+id/layoutItemAlarm"
+        app:layout_constraintTop_toTopOf="@+id/layoutItemAlarm"
+        tools:checked="true" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

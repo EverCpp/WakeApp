@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="day_primary">@color/gray_4</color>
+    <color name="day_primary_variant">@color/gray_2</color>
+    <color name="day_secundary">@color/gray_7</color>
+    <color name="day_secundary_variant">@color/gray_7</color>
+
+    <color name="eno_red_light">#DD0000</color>
+    <color name="eno_red_dark">#990000</color>
+    <color name="eno_green_light">#00DD00</color>
+    <color name="eno_green_dark">#009900</color>
+    <color name="eno_blue_light">#0000DD</color>
+    <color name="eno_blue_dark">#000099</color>
+
+    <color name="night_primary">@color/gray_2</color>
+    <color name="night_primary_variant">@color/gray_2</color>
+    <color name="night_secundary_variant">@color/gray_2</color>
+
+    <color name="black">#FF000000</color>
+    <color name="gray_1">#202121</color>
+    <color name="gray_2">#3b3b3b</color>
+    <color name="gray_3">#555555</color>
+    <color name="gray_4">#767676</color>
+    <color name="gray_5">#909090</color>
+    <color name="gray_6">#aaaaaa</color>
+    <color name="gray_7">#cbcbca</color>
+    <color name="gray_8">#e5e4e5</color>
+    <color name="white">#FFFFFFFF</color>   <!-- Texto normal botones/edit-->
+
+    <!-- Dialog  General -->
+    <color name="dialog_bg">@color/gray_3</color>
+
+    <color name="edittext_bg">@color/black</color>
+    <color name="edittext_sel_bg">@color/gray_4</color>
+    <color name="edittext_text">@color/gray_8</color>
+    <color name="edittext_stroke">@color/gray_4</color>
+
+    <color name="but_normal_bg">@color/gray_4</color>
+    <color name="but_normal_text">@color/white</color>
+    <color name="but_normal_stroke">@color/gray_2</color>
+    <color name="but_press_bg">@color/gray_3</color>
+    <color name="but_press_text">@color/gray_6</color>
+    <color name="but_press_stroke">@color/gray_1</color>
+
+    <color name="textview_bg">@color/black</color>
+    <color name="textview_text">@color/white</color>
+    <!-- <color name="textview_stroke">@color/gray_3</color> -->
+
+</resources>
